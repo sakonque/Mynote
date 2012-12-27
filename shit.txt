@@ -1,0 +1,63 @@
+﻿modules
+1. user
+2. group-manager
+3. administrator
+4. book
+5. comment
+6. digest
+7. note
+8. tag
+9. group
+10. friend
+
+
+pages
+1. index
+2. resources
+3. single book
+4. book upload
+5. user infos
+6. admin page
+7. register
+8. group page
+9. group establish
+10. friend page
+
+
+
+service
+1. plain pages
+2. register & login & database
+3. view own infos
+4. show books
+5. upload & delete books
+6. comment & note
+7. tag
+8. make friends
+...
+
+
+db
+1. 
+
+
+stage 1
+三张页面，注册，登陆，修改
+三个功能，用户注册，登陆以及修改信息
+上传书籍，
+书籍，网页，论文统一一个类
+数据库
+管理员：id     
+个人用户：id   用户名   账号  密码   性别   生日    邮箱   联系方式    QQ
+笔记   好友列表   小组列表
+书： 评论   标签    种类    评分    书名   作者   出版日期   出版社   简介   
+小组大表：
+小组小表：是否是小组长bool     小组成员用户id    
+好友表：
+
+
+
+
+problems
+好友表如何建立
+如何建好友列表
